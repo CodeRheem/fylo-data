@@ -18,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 @media (min-width: 800px) {
@@ -27,3 +28,39 @@ body{
       background-repeat: no-repeat;
     }
 }
+
+.fylo-border{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid white;
+    padding: 6rem;
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    border-top-right-radius: 7rem;
+}
+
+.icon{
+    margin-top: -3rem;
+    margin-right: 6rem;
+}
+
+.storage{
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    border: 1px solid white;
+    padding: 6rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+}
+
+h5{
+    color: whitesmoke;
+    margin-top: -3rem;
+}
+
