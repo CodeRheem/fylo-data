@@ -19,7 +19,6 @@ body{
     background-size: cover;
     height: 100vh;
     overflow: hidden;
-   
 }
 
 @media (min-width: 800px) {
@@ -34,7 +33,8 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    border: 1px solid white;
+    border: 1px solid hsl(228, 56%, 26%);
+    background-color: hsl(228, 56%, 26%);
     padding: 6rem;
     margin-top: 8rem;
     margin-left: 1.5rem;
@@ -47,14 +47,13 @@ body{
 .icon{
     margin-top: -3rem;
     margin-right: 1rem;
-    margin-left: -6.5rem;
+    margin-left: -4rem;
 }
 
 
 .icons{
     display: flex;
     justify-content: center;
-    align-content: space-between;
     align-items: center;
     margin-left: -9.6rem;
     margin-top: 2rem;
@@ -62,32 +61,38 @@ body{
 }
 
 .icon-1{
-    border: 2px solid whitesmoke;
+    border: 2px solid hsl(229, 57%, 11%);
     padding: 10px;
     border-radius: 9px;
+    background-color: hsl(229, 57%, 11%);
     
 
 }
 
 .icon-2{
-    border: 2px solid whitesmoke;
+    border: 2px solid hsl(229, 57%, 11%);
     padding: 10px;
     border-radius: 9px;
     padding-top: 0.8rem;
+    margin-left: 1rem;
+    background-color: hsl(229, 57%, 11%);
 }
 
 .icon-3{
-    border: 2px solid whitesmoke;
+    border: 2px solid hsl(229, 57%, 11%);
     padding: 10px;
     border-radius: 9px;
     padding-top: 1rem;
+    margin-left: 1rem;
+    background-color: hsl(229, 57%, 11%);
 }
 
 .storage{
     display: flex;
     justify-content: center;
     text-wrap: nowrap;
-    border: 1px solid white;
+    border: 1px solid hsl(228, 56%, 26%);
+    background-color: hsl(228, 56%, 26%);
     padding: 6rem;
     margin-top: 1rem;
     margin-left: 1.5rem;
