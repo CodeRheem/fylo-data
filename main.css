@@ -32,7 +32,6 @@ body{
 .fylo-border{
     display: flex;
     justify-content: center;
-    align-content: center;
     border: 1px solid hsl(228, 56%, 26%);
     background-color: hsl(228, 56%, 26%);
     padding: 6rem;
@@ -102,11 +101,18 @@ body{
 
 h5{
     color: whitesmoke;
-    margin-top: -3rem;
+    margin-top: -4rem;
     font-family: 'Raleway';
     font-weight: 400;
 }
 
 span{
     font-weight: 700;
+}
+
+.range{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0.5rem;
+
 }
